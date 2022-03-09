@@ -70,7 +70,7 @@ const playFunc = async (message, args) => {
         {
         console.log(error)
         });
-        await message.reply(`:thumbsup: Now Playing ***Your Link!***`)
+        await message.reply(`<:good:942190555096563752> Now Playing ***Your Link!***`)
         return;
     }
     const  connection = await voiceChannel.join();
@@ -95,7 +95,7 @@ const playFunc = async (message, args) => {
         {
         console.log(error)
         });
-        await message.reply(`:thumbsup: Now Playing ***${video.title}***`)
+        await message.reply(`<:good:942190555096563752> Now Playing ***${video.title}***`)
         return
     } else {
         message.channel.send('No video results found');
